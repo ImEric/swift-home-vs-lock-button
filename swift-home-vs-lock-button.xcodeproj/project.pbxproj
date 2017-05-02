@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07380FE21EB9244500AA4D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07380FE11EB9244500AA4D17 /* AppDelegate.swift */; };
+		07380FE41EB9244500AA4D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07380FE31EB9244500AA4D17 /* ViewController.swift */; };
+		07380FE71EB9244500AA4D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07380FE51EB9244500AA4D17 /* Main.storyboard */; };
+		07380FE91EB9244500AA4D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07380FE81EB9244500AA4D17 /* Assets.xcassets */; };
+		07380FEC1EB9244500AA4D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07380FEA1EB9244500AA4D17 /* LaunchScreen.storyboard */; };
+		07380FF71EB9244500AA4D17 /* swift_home_vs_lock_buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07380FF61EB9244500AA4D17 /* swift_home_vs_lock_buttonTests.swift */; };
+		073810021EB9244500AA4D17 /* swift_home_vs_lock_buttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073810011EB9244500AA4D17 /* swift_home_vs_lock_buttonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07380FF31EB9244500AA4D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07380FD61EB9244500AA4D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07380FDD1EB9244500AA4D17;
+			remoteInfo = "swift-home-vs-lock-button";
+		};
+		07380FFE1EB9244500AA4D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07380FD61EB9244500AA4D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07380FDD1EB9244500AA4D17;
+			remoteInfo = "swift-home-vs-lock-button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07380FDE1EB9244500AA4D17 /* swift-home-vs-lock-button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-home-vs-lock-button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07380FE11EB9244500AA4D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07380FE31EB9244500AA4D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07380FE61EB9244500AA4D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07380FE81EB9244500AA4D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07380FEB1EB9244500AA4D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07380FED1EB9244500AA4D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07380FF21EB9244500AA4D17 /* swift-home-vs-lock-buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-home-vs-lock-buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07380FF61EB9244500AA4D17 /* swift_home_vs_lock_buttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_home_vs_lock_buttonTests.swift; sourceTree = "<group>"; };
+		07380FF81EB9244500AA4D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07380FFD1EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-home-vs-lock-buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		073810011EB9244500AA4D17 /* swift_home_vs_lock_buttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_home_vs_lock_buttonUITests.swift; sourceTree = "<group>"; };
+		073810031EB9244500AA4D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07380FDB1EB9244500AA4D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FEF1EB9244500AA4D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FFA1EB9244500AA4D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07380FD51EB9244500AA4D17 = {
+			isa = PBXGroup;
+			children = (
+				07380FE01EB9244500AA4D17 /* swift-home-vs-lock-button */,
+				07380FF51EB9244500AA4D17 /* swift-home-vs-lock-buttonTests */,
+				073810001EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests */,
+				07380FDF1EB9244500AA4D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07380FDF1EB9244500AA4D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07380FDE1EB9244500AA4D17 /* swift-home-vs-lock-button.app */,
+				07380FF21EB9244500AA4D17 /* swift-home-vs-lock-buttonTests.xctest */,
+				07380FFD1EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07380FE01EB9244500AA4D17 /* swift-home-vs-lock-button */ = {
+			isa = PBXGroup;
+			children = (
+				07380FE11EB9244500AA4D17 /* AppDelegate.swift */,
+				07380FE31EB9244500AA4D17 /* ViewController.swift */,
+				07380FE51EB9244500AA4D17 /* Main.storyboard */,
+				07380FE81EB9244500AA4D17 /* Assets.xcassets */,
+				07380FEA1EB9244500AA4D17 /* LaunchScreen.storyboard */,
+				07380FED1EB9244500AA4D17 /* Info.plist */,
+			);
+			path = "swift-home-vs-lock-button";
+			sourceTree = "<group>";
+		};
+		07380FF51EB9244500AA4D17 /* swift-home-vs-lock-buttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				07380FF61EB9244500AA4D17 /* swift_home_vs_lock_buttonTests.swift */,
+				07380FF81EB9244500AA4D17 /* Info.plist */,
+			);
+			path = "swift-home-vs-lock-buttonTests";
+			sourceTree = "<group>";
+		};
+		073810001EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				073810011EB9244500AA4D17 /* swift_home_vs_lock_buttonUITests.swift */,
+				073810031EB9244500AA4D17 /* Info.plist */,
+			);
+			path = "swift-home-vs-lock-buttonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07380FDD1EB9244500AA4D17 /* swift-home-vs-lock-button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073810061EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-button" */;
+			buildPhases = (
+				07380FDA1EB9244500AA4D17 /* Sources */,
+				07380FDB1EB9244500AA4D17 /* Frameworks */,
+				07380FDC1EB9244500AA4D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-home-vs-lock-button";
+			productName = "swift-home-vs-lock-button";
+			productReference = 07380FDE1EB9244500AA4D17 /* swift-home-vs-lock-button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07380FF11EB9244500AA4D17 /* swift-home-vs-lock-buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073810091EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-buttonTests" */;
+			buildPhases = (
+				07380FEE1EB9244500AA4D17 /* Sources */,
+				07380FEF1EB9244500AA4D17 /* Frameworks */,
+				07380FF01EB9244500AA4D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07380FF41EB9244500AA4D17 /* PBXTargetDependency */,
+			);
+			name = "swift-home-vs-lock-buttonTests";
+			productName = "swift-home-vs-lock-buttonTests";
+			productReference = 07380FF21EB9244500AA4D17 /* swift-home-vs-lock-buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07380FFC1EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0738100C1EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-buttonUITests" */;
+			buildPhases = (
+				07380FF91EB9244500AA4D17 /* Sources */,
+				07380FFA1EB9244500AA4D17 /* Frameworks */,
+				07380FFB1EB9244500AA4D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07380FFF1EB9244500AA4D17 /* PBXTargetDependency */,
+			);
+			name = "swift-home-vs-lock-buttonUITests";
+			productName = "swift-home-vs-lock-buttonUITests";
+			productReference = 07380FFD1EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07380FD61EB9244500AA4D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eric Hu";
+				TargetAttributes = {
+					07380FDD1EB9244500AA4D17 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H34EM5EBLR;
+						ProvisioningStyle = Automatic;
+					};
+					07380FF11EB9244500AA4D17 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07380FDD1EB9244500AA4D17;
+					};
+					07380FFC1EB9244500AA4D17 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07380FDD1EB9244500AA4D17;
+					};
+				};
+			};
+			buildConfigurationList = 07380FD91EB9244500AA4D17 /* Build configuration list for PBXProject "swift-home-vs-lock-button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07380FD51EB9244500AA4D17;
+			productRefGroup = 07380FDF1EB9244500AA4D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07380FDD1EB9244500AA4D17 /* swift-home-vs-lock-button */,
+				07380FF11EB9244500AA4D17 /* swift-home-vs-lock-buttonTests */,
+				07380FFC1EB9244500AA4D17 /* swift-home-vs-lock-buttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07380FDC1EB9244500AA4D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07380FEC1EB9244500AA4D17 /* LaunchScreen.storyboard in Resources */,
+				07380FE91EB9244500AA4D17 /* Assets.xcassets in Resources */,
+				07380FE71EB9244500AA4D17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FF01EB9244500AA4D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FFB1EB9244500AA4D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07380FDA1EB9244500AA4D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07380FE41EB9244500AA4D17 /* ViewController.swift in Sources */,
+				07380FE21EB9244500AA4D17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FEE1EB9244500AA4D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07380FF71EB9244500AA4D17 /* swift_home_vs_lock_buttonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07380FF91EB9244500AA4D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073810021EB9244500AA4D17 /* swift_home_vs_lock_buttonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07380FF41EB9244500AA4D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07380FDD1EB9244500AA4D17 /* swift-home-vs-lock-button */;
+			targetProxy = 07380FF31EB9244500AA4D17 /* PBXContainerItemProxy */;
+		};
+		07380FFF1EB9244500AA4D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07380FDD1EB9244500AA4D17 /* swift-home-vs-lock-button */;
+			targetProxy = 07380FFE1EB9244500AA4D17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07380FE51EB9244500AA4D17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07380FE61EB9244500AA4D17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07380FEA1EB9244500AA4D17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07380FEB1EB9244500AA4D17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		073810041EB9244500AA4D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		073810051EB9244500AA4D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073810071EB9244500AA4D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H34EM5EBLR;
+				INFOPLIST_FILE = "swift-home-vs-lock-button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		073810081EB9244500AA4D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H34EM5EBLR;
+				INFOPLIST_FILE = "swift-home-vs-lock-button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0738100A1EB9244500AA4D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift-home-vs-lock-buttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-home-vs-lock-button.app/swift-home-vs-lock-button";
+			};
+			name = Debug;
+		};
+		0738100B1EB9244500AA4D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift-home-vs-lock-buttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-home-vs-lock-button.app/swift-home-vs-lock-button";
+			};
+			name = Release;
+		};
+		0738100D1EB9244500AA4D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "swift-home-vs-lock-buttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift-home-vs-lock-button";
+			};
+			name = Debug;
+		};
+		0738100E1EB9244500AA4D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "swift-home-vs-lock-buttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.swift-home-vs-lock-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift-home-vs-lock-button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07380FD91EB9244500AA4D17 /* Build configuration list for PBXProject "swift-home-vs-lock-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073810041EB9244500AA4D17 /* Debug */,
+				073810051EB9244500AA4D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073810061EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073810071EB9244500AA4D17 /* Debug */,
+				073810081EB9244500AA4D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		073810091EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738100A1EB9244500AA4D17 /* Debug */,
+				0738100B1EB9244500AA4D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0738100C1EB9244500AA4D17 /* Build configuration list for PBXNativeTarget "swift-home-vs-lock-buttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0738100D1EB9244500AA4D17 /* Debug */,
+				0738100E1EB9244500AA4D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07380FD61EB9244500AA4D17 /* Project object */;
+}
