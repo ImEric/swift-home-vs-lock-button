@@ -1,4 +1,4 @@
-# Detecting Home Button vs. Lock Button in Swift 3
+# Detecting Home Button vs Lock Button in Swift 3
 
 ### Motivation
 
